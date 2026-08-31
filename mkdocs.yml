@@ -1,40 +1,27 @@
-site_name: 计算机科研训练课程
-site_description: 面向计算机及智能信息类本科生的科研素养与研究实践课程
+site_name: WHU CS 科研训练
+site_description: 武汉大学计算机科研训练课程公开网站
 site_author: 课程教学团队
 site_url: https://xxzhang99.github.io/research-training-course/
 repo_url: https://github.com/xxzhang99/research-training-course
 repo_name: 课程源码
 edit_uri: edit/main/docs/
 
-copyright: 课程教学团队 · 课程资料仅用于教学与学习
+copyright: WHU CS 科研训练 · 课程资料仅用于教学与学习
+
+not_in_nav: |
+  lectures/**
+  projects/**
+  resources/**
+  policies/**
+  showcase/**
+  archive/**
+  syllabus.md
 
 nav:
   - 首页: index.md
-  - 课程日程: schedule.md
-  - 课程介绍: syllabus.md
-  - 课程讲次:
-      - 讲次总览: lectures/index.md
-      - 第1讲 · 科研是什么: lectures/lecture-01.md
-      - 第2讲 · 科研文献阅读: lectures/lecture-02.md
-      - 第3讲 · 科研方法: lectures/lecture-03.md
-      - 第4讲 · 文献调研与研究评价: lectures/lecture-04.md
-      - 第5讲 · 问题、机理与假设: lectures/lecture-05.md
-      - 第6讲 · 方法构思与风险: lectures/lecture-06.md
-      - 第7讲 · 实验与证据: lectures/lecture-07.md
-      - 第8讲 · 写作与图表: lectures/lecture-08.md
-      - 第9讲 · AI、诚信与科研交流: lectures/lecture-09.md
-      - 第10讲 · 提案答辩与后续路径: lectures/lecture-10.md
-  - 作业与项目:
-      - 阶段作业: assignments/index.md
-      - 贯穿式研究项目: projects/index.md
-  - 资源库:
-      - 模板与工具: resources/templates.md
-      - 阅读与参考: resources/readings.md
-  - 课程规范:
-      - 学术诚信: policies/academic-integrity.md
-      - AI使用规范: policies/ai-policy.md
-  - 成果展示: showcase/index.md
-  - 历年归档: archive/index.md
+  - 课程日历: schedule.md
+  - 课程作业: assignments/index.md
+  - FAQ: faq.md
 
 theme:
   name: material
