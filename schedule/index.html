@@ -60,8 +60,6 @@
   
     
     
-      
-    
     
     
     
@@ -115,33 +113,7 @@
     </div>
     
       
-        <form class="md-header__option" data-md-component="palette">
-  
     
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="切换至深色模式"  type="radio" name="__palette" id="__palette_0">
-    
-      <label class="md-header__button md-icon" title="切换至深色模式" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
-      </label>
-    
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="切换至浅色模式"  type="radio" name="__palette" id="__palette_1">
-    
-      <label class="md-header__button md-icon" title="切换至浅色模式" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
-      </label>
-    
-  
-</form>
-      
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -410,7 +382,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -478,8 +452,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -512,8 +484,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -522,7 +492,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       资料发布说明
     </span>
@@ -1221,7 +1191,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -1229,8 +1201,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="目录">
   
   
-  
-    
   
   
     <label class="md-nav__title" for="__toc">
@@ -1240,7 +1210,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       资料发布说明
     </span>
@@ -1261,123 +1231,114 @@
               <article class="md-content__inner md-typeset">
                 
                   
-
-
   
-    <a href="https://github.com/xxzhang99/research-training-course/edit/main/docs/schedule.md" title="编辑此页" class="md-content__button md-icon" rel="edit">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
-    </a>
+
+
+
   
   
 
 
-<h1 id="_1">课程日程<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>课程日程参考CMU 15-445的结构化设计，以讲次为主索引，同时关联课件、阅读、课堂材料和阶段产出。具体日期与截止时间将在开课信息确定后补充。</p>
-<div class="small-note">移动端可在表格区域横向滑动，查看课程资料、阅读、产出与状态。</div>
+<div class="site-notice">课程日程为首版规划 · 正式日期与截止时间将在开课信息确定后更新</div>
+
+<div class="schedule-page">
+<div class="schedule-header">
+<div class="schedule-title-wrap">
+<div class="schedule-icon">PLAN</div>
+<div><div class="course-eyebrow">Course schedule</div><h1>课程日程</h1></div>
+</div>
+<div class="schedule-updated">最后更新：2026年8月31日</div>
+</div>
+
+<p class="schedule-intro">课程以讲次为主索引，把讲授主题、参考阅读、课堂任务、阶段产出和课件下载放在同一个页面。红色按钮提供PDF与PPTX，黑色按钮进入讲次详情。</p>
+<div class="small-note">移动端可在表格区域横向滑动查看完整信息。</div>
 
 <div class="schedule-wrap">
-<table class="course-table">
-<thead>
-<tr>
-<th>讲次</th>
-<th>主题与核心内容</th>
-<th>课程资料</th>
-<th>阅读与资源</th>
-<th>课堂/课后产出</th>
-<th>状态</th>
-</tr>
-</thead>
+<table class="schedule-table">
+<thead><tr><th>讲次</th><th>主题、阅读与阶段产出</th><th class="resource-head">PDF</th><th class="resource-head">PPTX</th><th class="resource-head">详情</th></tr></thead>
 <tbody>
+<tr class="module-row"><td colspan="5">Part I · 科研基础与文献能力</td></tr>
 <tr>
-<td>01</td>
-<td><span class="lecture-title">科研是什么</span><br>科研与工程；问题—机理—解法—效果；不同计算机研究范式。</td>
-<td class="materials">待发布</td>
-<td>研究范式案例</td>
-<td>Research Interest<br>研究范式判断</td>
-<td><span class="status status-plan">规划中</span></td>
+<td class="date">Lecture 01</td>
+<td class="topic"><strong>#01: 科研是什么</strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">科研与工程；问题—机理—解法—效果；计算机研究范式</span><span class="label">参考资源：</span><span class="value">研究范式案例</span><span class="label">阶段产出：</span><span class="value">Research Interest · 研究范式判断</span></div></td>
+<td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-01/">VIEW</a></td>
 </tr>
 <tr>
-<td>02</td>
-<td><span class="lecture-title">科研文献阅读</span><br>目的导向；检索与筛选；三步阅读；核心文献；做表分析；发现候选问题。</td>
-<td class="materials"><a href="../assets/files/lecture-02/slides.pdf">PDF</a><a href="../assets/files/lecture-02/slides.pptx">PPTX</a><a href="../lectures/lecture-02/">详情</a></td>
-<td><a href="https://web.stanford.edu/class/cs244/papers/HowtoReadPaper.pdf">Keshav</a><br>MapReduce / RDD</td>
-<td>Paper Reading Note<br>Literature Comparison<br>Candidate Problem</td>
-<td><span class="status status-ready">已发布</span></td>
+<td class="date">Lecture 02</td>
+<td class="topic"><strong>#02: 科研文献阅读 <em>资料已发布</em></strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">目的导向；检索筛选；三步阅读；核心文献；比较与候选问题</span><span class="label">阅读材料：</span><span class="value"><a href="https://web.stanford.edu/class/cs244/papers/HowtoReadPaper.pdf">Keshav</a> · MapReduce · RDD</span><span class="label">阶段产出：</span><span class="value">Paper Reading Note · Literature Comparison · Candidate Problem</span></div></td>
+<td class="resource-cell"><a class="file-link" href="../assets/files/lecture-02/slides.pdf">PDF</a></td><td class="resource-cell"><a class="file-link" href="../assets/files/lecture-02/slides.pptx">PPT</a></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-02/">VIEW</a></td>
 </tr>
 <tr>
-<td>03</td>
-<td><span class="lecture-title">科研方法</span><br>问题与机理；第一性原理；方案构思；数量级估算；MVP实现；实验与逻辑审查。</td>
-<td class="materials"><a href="../assets/files/lecture-03/slides.pdf">PDF</a><a href="../assets/files/lecture-03/slides.pptx">PPTX</a><a href="../lectures/lecture-03/">详情</a></td>
-<td>MapReduce → RDD案例<br>Claim—Evidence框架</td>
-<td>Solution Sketch<br>MVP Plan<br>Evaluation Plan</td>
-<td><span class="status status-ready">已发布</span></td>
+<td class="date">Lecture 03</td>
+<td class="topic"><strong>#03: 科研方法 <em>资料已发布</em></strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">问题与机理；第一性原理；方案与估算；MVP；实验和逻辑审查</span><span class="label">案例材料：</span><span class="value">MapReduce → RDD · Claim—Evidence框架</span><span class="label">阶段产出：</span><span class="value">Solution Sketch · MVP Plan · Evaluation Plan</span></div></td>
+<td class="resource-cell"><a class="file-link" href="../assets/files/lecture-03/slides.pdf">PDF</a></td><td class="resource-cell"><a class="file-link" href="../assets/files/lecture-03/slides.pptx">PPT</a></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-03/">VIEW</a></td>
 </tr>
 <tr>
-<td>04</td>
-<td><span class="lecture-title">文献调研与研究评价</span><br>Literature Map；Related Work；Reviewer视角；主张、证据与局限。</td>
-<td class="materials">待发布</td>
-<td>Edinburgh / Cambridge案例</td>
-<td>Literature Map<br>Short Review</td>
-<td><span class="status status-plan">规划中</span></td>
+<td class="date">Lecture 04</td>
+<td class="topic"><strong>#04: 文献调研与研究评价</strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">Literature Map；Related Work；Reviewer视角；主张、证据与局限</span><span class="label">参考资源：</span><span class="value">Edinburgh · Cambridge案例</span><span class="label">阶段产出：</span><span class="value">Literature Map · Short Review</span></div></td>
+<td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-04/">VIEW</a></td>
+</tr>
+
+<tr class="module-row"><td colspan="5">Part II · 问题、方案与研究设计</td></tr>
+<tr>
+<td class="date">Lecture 05</td>
+<td class="topic"><strong>#05: 定义问题、机理与假设</strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">研究空白；问题边界；竞争性解释；可反驳假设</span><span class="label">参考资源：</span><span class="value">Princeton · Stanford案例</span><span class="label">阶段产出：</span><span class="value">Problem–Gap Canvas · Hypothesis</span></div></td>
+<td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-05/">VIEW</a></td>
 </tr>
 <tr>
-<td>05</td>
-<td><span class="lecture-title">定义问题、机理与假设</span><br>研究空白；边界；竞争性解释；可反驳假设。</td>
-<td class="materials">待发布</td>
-<td>Princeton / Stanford案例</td>
-<td>Problem–Gap Canvas<br>Hypothesis</td>
-<td><span class="status status-plan">规划中</span></td>
+<td class="date">Lecture 06</td>
+<td class="topic"><strong>#06: 方法构思与风险</strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">备选方案；可行性；失败模式；资源和项目计划</span><span class="label">参考资源：</span><span class="value">Proposal与项目管理案例</span><span class="label">阶段产出：</span><span class="value">Solution Sketch · Risk List</span></div></td>
+<td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-06/">VIEW</a></td>
 </tr>
 <tr>
-<td>06</td>
-<td><span class="lecture-title">方法构思与风险</span><br>备选方案；可行性；失败模式；资源与项目计划。</td>
-<td class="materials">待发布</td>
-<td>Proposal与项目管理案例</td>
-<td>Solution Sketch<br>Risk List</td>
-<td><span class="status status-plan">规划中</span></td>
+<td class="date">Lecture 07</td>
+<td class="topic"><strong>#07: 实验与证据</strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">基线、变量、指标、消融、统计量、有效性与结论边界</span><span class="label">参考资源：</span><span class="value">Washington实证研究方法</span><span class="label">阶段产出：</span><span class="value">Evaluation Plan · Evidence Audit</span></div></td>
+<td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-07/">VIEW</a></td>
+</tr>
+
+<tr class="module-row"><td colspan="5">Part III · 写作、交流与提案</td></tr>
+<tr>
+<td class="date">Lecture 08</td>
+<td class="topic"><strong>#08: 写作与图表</strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">论文结构；引言；图表；Caption；简洁且可复现的表达</span><span class="label">参考资源：</span><span class="value">Cambridge · EPFL资源</span><span class="label">阶段产出：</span><span class="value">Introduction Draft · Figure + Caption</span></div></td>
+<td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-08/">VIEW</a></td>
 </tr>
 <tr>
-<td>07</td>
-<td><span class="lecture-title">实验与证据</span><br>基线、变量、指标、消融、统计量、有效性与结论边界。</td>
-<td class="materials">待发布</td>
-<td>Washington实证方法</td>
-<td>Evaluation Plan<br>Evidence Audit</td>
-<td><span class="status status-plan">规划中</span></td>
+<td class="date">Lecture 09</td>
+<td class="topic"><strong>#09: AI、诚信与科研交流</strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">AI辅助边界；引文和结果核验；一分钟Pitch；同行反馈</span><span class="label">参考资源：</span><span class="value">ETH · Oxford规范</span><span class="label">阶段产出：</span><span class="value">AI Research Log · Research Pitch</span></div></td>
+<td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-09/">VIEW</a></td>
 </tr>
 <tr>
-<td>08</td>
-<td><span class="lecture-title">写作与图表</span><br>论文结构；引言；图表；Caption；简洁、可复现的表达。</td>
-<td class="materials">待发布</td>
-<td>Cambridge / EPFL资源</td>
-<td>Introduction Draft<br>Figure + Caption</td>
-<td><span class="status status-plan">规划中</span></td>
-</tr>
-<tr>
-<td>09</td>
-<td><span class="lecture-title">AI、诚信与科研交流</span><br>AI辅助边界；引文与结果核验；一分钟Pitch；同行反馈。</td>
-<td class="materials">待发布</td>
-<td>ETH / Oxford规范</td>
-<td>AI Research Log<br>Research Pitch</td>
-<td><span class="status status-plan">规划中</span></td>
-</tr>
-<tr>
-<td>10</td>
-<td><span class="lecture-title">提案答辩与后续路径</span><br>Mini Proposal展示、问答、复盘；衔接导师项目和创新训练。</td>
-<td class="materials">待发布</td>
-<td>UCSD / 吉林大学案例</td>
-<td>Final Proposal<br>Presentation</td>
-<td><span class="status status-plan">规划中</span></td>
+<td class="date">Lecture 10</td>
+<td class="topic"><strong>#10: 提案答辩与后续路径</strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">Mini Proposal展示、问答和复盘；导师项目与创新训练衔接</span><span class="label">参考资源：</span><span class="value">UCSD · 吉林大学案例</span><span class="label">阶段产出：</span><span class="value">Final Proposal · Presentation</span></div></td>
+<td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-10/">VIEW</a></td>
 </tr>
 </tbody>
 </table>
 </div>
-<h2 id="_2">资料发布说明<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+
+<div class="mobile-schedule">
+<div class="mobile-module">Part I · 科研基础与文献能力</div>
+<div class="mobile-lecture"><div class="mobile-lecture-top"><span class="mobile-lecture-no">Lecture 01</span><span class="mobile-lecture-title">科研是什么</span></div><p><strong>内容：</strong>科研与工程、研究范式、问题—机理—解法—效果。</p><p><strong>产出：</strong>Research Interest · 研究范式判断</p><div class="mobile-files"><a class="detail" href="../lectures/lecture-01/">查看详情</a></div></div>
+<div class="mobile-lecture ready"><div class="mobile-lecture-top"><span class="mobile-lecture-no">Lecture 02</span><span class="mobile-lecture-title">科研文献阅读</span></div><p><strong>内容：</strong>检索筛选、三步阅读、核心文献和候选问题。</p><p><strong>产出：</strong>Reading Note · Literature Comparison</p><div class="mobile-files"><a href="../assets/files/lecture-02/slides.pdf">PDF</a><a href="../assets/files/lecture-02/slides.pptx">PPTX</a><a class="detail" href="../lectures/lecture-02/">查看详情</a></div></div>
+<div class="mobile-lecture ready"><div class="mobile-lecture-top"><span class="mobile-lecture-no">Lecture 03</span><span class="mobile-lecture-title">科研方法</span></div><p><strong>内容：</strong>机理、第一性原理、方案、MVP与实验设计。</p><p><strong>产出：</strong>Solution Sketch · MVP Plan · Evaluation Plan</p><div class="mobile-files"><a href="../assets/files/lecture-03/slides.pdf">PDF</a><a href="../assets/files/lecture-03/slides.pptx">PPTX</a><a class="detail" href="../lectures/lecture-03/">查看详情</a></div></div>
+<div class="mobile-lecture"><div class="mobile-lecture-top"><span class="mobile-lecture-no">Lecture 04</span><span class="mobile-lecture-title">文献调研与研究评价</span></div><p><strong>产出：</strong>Literature Map · Short Review</p><div class="mobile-files"><a class="detail" href="../lectures/lecture-04/">查看详情</a></div></div>
+<div class="mobile-module">Part II · 问题、方案与研究设计</div>
+<div class="mobile-lecture"><div class="mobile-lecture-top"><span class="mobile-lecture-no">Lecture 05</span><span class="mobile-lecture-title">问题、机理与假设</span></div><p><strong>产出：</strong>Problem–Gap Canvas · Hypothesis</p><div class="mobile-files"><a class="detail" href="../lectures/lecture-05/">查看详情</a></div></div>
+<div class="mobile-lecture"><div class="mobile-lecture-top"><span class="mobile-lecture-no">Lecture 06</span><span class="mobile-lecture-title">方法构思与风险</span></div><p><strong>产出：</strong>Solution Sketch · Risk List</p><div class="mobile-files"><a class="detail" href="../lectures/lecture-06/">查看详情</a></div></div>
+<div class="mobile-lecture"><div class="mobile-lecture-top"><span class="mobile-lecture-no">Lecture 07</span><span class="mobile-lecture-title">实验与证据</span></div><p><strong>产出：</strong>Evaluation Plan · Evidence Audit</p><div class="mobile-files"><a class="detail" href="../lectures/lecture-07/">查看详情</a></div></div>
+<div class="mobile-module">Part III · 写作、交流与提案</div>
+<div class="mobile-lecture"><div class="mobile-lecture-top"><span class="mobile-lecture-no">Lecture 08</span><span class="mobile-lecture-title">写作与图表</span></div><p><strong>产出：</strong>Introduction Draft · Figure + Caption</p><div class="mobile-files"><a class="detail" href="../lectures/lecture-08/">查看详情</a></div></div>
+<div class="mobile-lecture"><div class="mobile-lecture-top"><span class="mobile-lecture-no">Lecture 09</span><span class="mobile-lecture-title">AI、诚信与科研交流</span></div><p><strong>产出：</strong>AI Research Log · Research Pitch</p><div class="mobile-files"><a class="detail" href="../lectures/lecture-09/">查看详情</a></div></div>
+<div class="mobile-lecture"><div class="mobile-lecture-top"><span class="mobile-lecture-no">Lecture 10</span><span class="mobile-lecture-title">提案答辩与后续路径</span></div><p><strong>产出：</strong>Final Proposal · Presentation</p><div class="mobile-files"><a class="detail" href="../lectures/lecture-10/">查看详情</a></div></div>
+</div>
+</div>
+
+<h2 id="_1">资料发布说明<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>PDF</strong>用于浏览器预览与打印；</li>
 <li><strong>PPTX</strong>保留可编辑页面、授课备注和课堂参考答案；</li>
-<li>外部论文原则上提供官方链接，不在本站重新分发全文；</li>
-<li>后续课程日期、作业发布和项目节点将在此页统一更新。</li>
+<li>外部论文提供官方链接，不在本站重新分发全文；</li>
+<li>课程日期、作业发布和项目节点将在本页统一更新。</li>
 </ul>
 
 
@@ -1386,8 +1347,13 @@
 
 
 
+  
+  
 
 
+
+
+  
 
 
 
@@ -1410,6 +1376,8 @@
         <footer class="md-footer">
   
     
+      
+        
       
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
@@ -1485,7 +1453,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "content.action.edit", "content.code.copy", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "content.code.copy", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
