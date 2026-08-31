@@ -25,8 +25,8 @@ hide:
 <tr class="module-row"><td colspan="5">Part I · 科研基础与文献能力</td></tr>
 <tr>
 <td class="date">待定</td>
-<td class="topic"><strong>#01: 科研是什么</strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">科研与工程；问题—机理—解法—效果；计算机研究范式</span><span class="label">参考资源：</span><span class="value">研究范式案例</span><span class="label">阶段产出：</span><span class="value">Research Interest · 研究范式判断</span></div></td>
-<td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><span class="file-link disabled">—</span></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-01/">VIEW</a></td>
+<td class="topic"><strong>#01: 科研引言 <em>资料已发布</em></strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">科研内涵；第一个项目；科研与工程；研究类型与科研流程</span><span class="label">课堂活动：</span><span class="value">研究行为判断 · 科研/工程分类 · 类型与证据匹配</span><span class="label">阶段产出：</span><span class="value">Research Interest Card</span></div></td>
+<td class="resource-cell"><a class="file-link" href="../assets/files/lecture-01/slides.pdf">PDF</a></td><td class="resource-cell"><a class="file-link" href="../assets/files/lecture-01/slides.pptx">PPT</a></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-01/">VIEW</a></td>
 </tr>
 <tr>
 <td class="date">待定</td>
@@ -83,7 +83,7 @@ hide:
 
 <div class="mobile-schedule">
 <div class="mobile-module">Part I · 科研基础与文献能力</div>
-<div class="mobile-lecture"><div class="mobile-lecture-top"><span class="mobile-lecture-no">日期：待定 · #01</span><span class="mobile-lecture-title">科研是什么</span></div><p><strong>内容：</strong>科研与工程、研究范式、问题—机理—解法—效果。</p><p><strong>产出：</strong>Research Interest · 研究范式判断</p><div class="mobile-files"><a class="detail" href="../lectures/lecture-01/">查看详情</a></div></div>
+<div class="mobile-lecture ready"><div class="mobile-lecture-top"><span class="mobile-lecture-no">日期：待定 · #01</span><span class="mobile-lecture-title">科研引言</span></div><p><strong>内容：</strong>科研内涵、第一个项目、科研与工程、研究类型与完整流程。</p><p><strong>产出：</strong>Research Interest Card</p><div class="mobile-files"><a href="../assets/files/lecture-01/slides.pdf">PDF</a><a href="../assets/files/lecture-01/slides.pptx">PPTX</a><a class="detail" href="../lectures/lecture-01/">查看详情</a></div></div>
 <div class="mobile-lecture ready"><div class="mobile-lecture-top"><span class="mobile-lecture-no">日期：待定 · #02</span><span class="mobile-lecture-title">科研文献阅读</span></div><p><strong>内容：</strong>检索筛选、三步阅读、核心文献和候选问题。</p><p><strong>产出：</strong>Reading Note · Literature Comparison</p><div class="mobile-files"><a href="../assets/files/lecture-02/slides.pdf">PDF</a><a href="../assets/files/lecture-02/slides.pptx">PPTX</a><a class="detail" href="../lectures/lecture-02/">查看详情</a></div></div>
 <div class="mobile-lecture ready"><div class="mobile-lecture-top"><span class="mobile-lecture-no">日期：待定 · #03</span><span class="mobile-lecture-title">科研方法</span></div><p><strong>内容：</strong>机理、第一性原理、方案、MVP与实验设计。</p><p><strong>产出：</strong>Solution Sketch · MVP Plan · Evaluation Plan</p><div class="mobile-files"><a href="../assets/files/lecture-03/slides.pdf">PDF</a><a href="../assets/files/lecture-03/slides.pptx">PPTX</a><a class="detail" href="../lectures/lecture-03/">查看详情</a></div></div>
 <div class="mobile-lecture"><div class="mobile-lecture-top"><span class="mobile-lecture-no">日期：待定 · #04</span><span class="mobile-lecture-title">文献调研与研究评价</span></div><p><strong>产出：</strong>Literature Map · Short Review</p><div class="mobile-files"><a class="detail" href="../lectures/lecture-04/">查看详情</a></div></div>

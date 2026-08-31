@@ -53,6 +53,7 @@ hide:
 <table class="simple-course-table">
 <thead><tr><th>讲次</th><th>主题</th><th>PDF</th><th>PPTX</th><th>页面</th></tr></thead>
 <tbody>
+<tr><td>01</td><td>科研引言</td><td><a href="assets/files/lecture-01/slides.pdf">下载</a></td><td><a href="assets/files/lecture-01/slides.pptx">下载</a></td><td><a href="lectures/lecture-01/">查看</a></td></tr>
 <tr><td>02</td><td>科研文献阅读</td><td><a href="assets/files/lecture-02/slides.pdf">下载</a></td><td><a href="assets/files/lecture-02/slides.pptx">下载</a></td><td><a href="lectures/lecture-02/">查看</a></td></tr>
 <tr><td>03</td><td>科研方法</td><td><a href="assets/files/lecture-03/slides.pdf">下载</a></td><td><a href="assets/files/lecture-03/slides.pptx">下载</a></td><td><a href="lectures/lecture-03/">查看</a></td></tr>
 </tbody>
