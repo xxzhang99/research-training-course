@@ -1,7 +1,7 @@
 site_name: WHU CS 科研训练
 site_description: 武汉大学计算机科研训练课程公开网站
 site_author: 课程教学团队
-site_url: https://xxzhang99.github.io/research-training-course/
+site_url: https://research-training-course.pages.dev/
 repo_url: https://github.com/xxzhang99/research-training-course
 repo_name: 课程源码
 edit_uri: edit/main/docs/
@@ -20,6 +20,7 @@ not_in_nav: |
 nav:
   - 首页: index.md
   - 课程日历: schedule.md
+  - 课程资料: materials.md
   - 课程作业: assignments/index.md
   - FAQ: faq.md
 

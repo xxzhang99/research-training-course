@@ -324,6 +324,27 @@ body { color: var(--course-ink); background: var(--course-black); }
 .faq-item[open] summary { border-bottom: 1px solid #e0e2e4; }
 .faq-item p, .faq-item ul { margin: 0; padding: .85rem .2rem 1.05rem; color: #414a52; font-size: .95rem; line-height: 1.75; }
 
+.materials-page { padding-bottom: .5rem; }
+.materials-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem; margin: .3rem 0 1.6rem; padding: .2rem 0 1.05rem; border-bottom: 2px solid var(--course-ink); }
+.materials-title-wrap { display: flex; align-items: center; gap: .85rem; }
+.materials-icon { display: grid; width: 3rem; height: 3rem; place-items: center; border-radius: .35rem; background: var(--course-red); color: #fff; font-size: .62rem; font-weight: 900; letter-spacing: .03em; }
+.materials-header h1 { margin: 0; font-size: 2.45rem; line-height: 1; }
+.materials-updated { color: var(--course-muted); font-size: .78rem; white-space: nowrap; }
+.materials-intro { max-width: 900px; margin: 0 0 1.2rem; color: #59626a; line-height: 1.75; }
+.materials-wrap { overflow-x: auto; }
+.materials-table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: .88rem; }
+.materials-table th { padding: .72rem .65rem; border-bottom: 2px solid var(--course-ink); text-align: left; font-weight: 900; }
+.materials-table td { padding: .9rem .65rem; border-bottom: 1px solid #d5d9dc; vertical-align: middle; }
+.materials-date { width: 105px; white-space: nowrap; color: var(--course-muted); }
+.materials-name { width: 100px; font-weight: 850; }
+.materials-topic strong { display: block; margin-bottom: .2rem; color: var(--course-ink); }
+.materials-topic span { display: block; color: var(--course-muted); line-height: 1.55; }
+.materials-file { width: 135px; text-align: right; white-space: nowrap; }
+.materials-file a, .mobile-material a { display: inline-flex; min-height: 36px; align-items: center; justify-content: center; padding: .45rem .7rem; border-radius: .2rem; background: var(--course-red); color: #fff !important; font-size: .74rem; font-weight: 900 !important; text-decoration: none !important; }
+.materials-file a:hover, .mobile-material a:hover { background: var(--course-red-dark); }
+.mobile-materials-list { display: none; }
+.materials-notice { margin-top: 1.4rem; }
+
 .md-typeset table:not([class]) { border: 0; box-shadow: none; }
 .md-typeset table:not([class]) th { background: var(--course-ink); color: #fff; }
 .md-typeset table:not([class]) tr:nth-child(even) { background: #e7e9eb; }
@@ -365,4 +386,15 @@ body { color: var(--course-ink); background: var(--course-black); }
   .schedule-intro { font-size: .88rem; }
   .schedule-wrap, .schedule-page > .small-note { display: none; }
   .mobile-schedule { display: block; }
+  .materials-header { display: block; }
+  .materials-header h1 { font-size: 1.9rem; }
+  .materials-updated { display: block; margin: .65rem 0 0 3.85rem; }
+  .materials-intro { font-size: .88rem; }
+  .materials-wrap { display: none; }
+  .mobile-materials-list { display: block; }
+  .mobile-material { padding: 1rem .8rem 1.1rem; border-top: 1px solid #cdd2d5; border-bottom: 1px solid #cdd2d5; border-left: 5px solid var(--course-red); background: #fff; }
+  .mobile-material-meta { display: flex; justify-content: space-between; gap: 1rem; color: var(--course-muted); font-size: .76rem; }
+  .mobile-material-meta strong { color: var(--course-ink); }
+  .mobile-material h2 { margin: .65rem 0 .45rem; padding: 0; border: 0; font-size: 1rem; }
+  .mobile-material p { margin: 0 0 .8rem; color: #535c64; font-size: .82rem; line-height: 1.55; }
 }
