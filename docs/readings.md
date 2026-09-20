@@ -36,7 +36,7 @@ hide:
 <tr>
 <td class="reading-title"><strong>How to Succeed in Graduate School: A Guide for Students and Advisors（Part I / II）</strong></td>
 <td>Marie desJardins，XRDS</td>
-<td><a class="reading-link external" href="https://doi.org/10.1145/1373576.1373578">Part I</a> <a class="reading-link external" href="https://doi.org/10.1145/1375972.1375975">Part II</a></td>
+<td><a class="reading-link external" href="https://doi.org/10.1145/1373576.1373578">官方链接 · Part I</a><a class="reading-link external" href="https://doi.org/10.1145/1375972.1375975">官方链接 · Part II</a></td>
 <td class="reading-note">讨论学生与导师的相互期待、常见问题和解决途径，ACM Digital Library。</td>
 </tr>
 </tbody>
@@ -46,7 +46,7 @@ hide:
 <div class="mobile-readings-list">
 <div class="mobile-reading"><div class="mobile-reading-top"><strong>How to do Research at the MIT AI Lab</strong></div><p>David Chapman（编），MIT AI Lab WP-316。</p><p>科研起步阶段的阅读、写作、选题与心态建议。</p><a href="../assets/files/readings/mit-ai-lab-how-to-do-research.pdf">下载PDF · 1.9 MB</a><a class="detail" href="https://dspace.mit.edu/handle/1721.1/41487">官方页面</a></div>
 <div class="mobile-reading"><div class="mobile-reading-top"><strong>The Ph.D. Grind</strong></div><p>Philip J. Guo，作者免费发布。</p><p>六年博士经历回忆录。</p><a href="../assets/files/readings/phd-grind.pdf">下载PDF · 863 KB</a><a class="detail" href="http://www.pgbovine.net/PhD-memoir.htm">作者主页</a></div>
-<div class="mobile-reading"><div class="mobile-reading-top"><strong>How to Succeed in Graduate School（Part I / II）</strong></div><p>Marie desJardins，XRDS。</p><p>学生与导师关系、常见问题与解决途径。</p><a class="detail" href="https://doi.org/10.1145/1373576.1373578">Part I</a><a class="detail" href="https://doi.org/10.1145/1375972.1375975">Part II</a></div>
+<div class="mobile-reading"><div class="mobile-reading-top"><strong>How to Succeed in Graduate School（Part I / II）</strong></div><p>Marie desJardins，XRDS。</p><p>学生与导师关系、常见问题与解决途径。</p><a class="detail" href="https://doi.org/10.1145/1373576.1373578">官方链接 · Part I</a><a class="detail" href="https://doi.org/10.1145/1375972.1375975">官方链接 · Part II</a></div>
 </div>
 
 ## 论文写作、投稿与审稿
