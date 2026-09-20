@@ -303,6 +303,7 @@ body { color: var(--course-ink); background: var(--course-black); }
 .course-outline li { display: grid; grid-template-columns: 250px 1fr; gap: 1.2rem; padding: .85rem 0; border-top: 1px solid #d8dcdf; counter-increment: course-part; }
 .course-outline li strong::before { content: "0" counter(course-part) " · "; color: var(--course-red); }
 .course-outline li span { color: #566068; }
+.course-outline li strong em { margin-left: .35rem; padding: .1rem .42rem; border-radius: 999px; background: var(--course-red); color: #fff; font-size: .68rem; font-style: normal; font-weight: 800; white-space: nowrap; }
 .simple-course-table, .assignment-table { width: 100%; border-collapse: collapse; }
 .simple-course-table th, .assignment-table th { padding: .7rem .6rem; border-bottom: 2px solid var(--course-ink); text-align: left; }
 .simple-course-table td, .assignment-table td { padding: .75rem .6rem; border-bottom: 1px solid #d5d9dc; }

@@ -18,7 +18,7 @@ hide:
 </div>
 </div>
 <div class="course-facts">
-<strong>10讲</strong><span>科研方法与实践</span>
+<strong>7讲</strong><span>科研方法与实践</span>
 <strong>公开资料</strong><span>PDF与可编辑PPTX</span>
 <strong>贯穿项目</strong><span>Mini Research Proposal</span>
 </div>
@@ -34,7 +34,7 @@ hide:
 <div class="course-info-list">
 <div><strong>授课教师</strong><span>晏潇 博士</span></div>
 <div><strong>单位</strong><span>武汉大学 · 武汉数学与智能研究院</span></div>
-<div><strong>课程形式</strong><span>方法讲授、案例拆解、课堂练习、贯穿式研究项目与同伴反馈</span></div>
+<div><strong>课程形式</strong><span>方法讲授、优秀硕博实例展示、交互式讨论、小组调研展示与研究报告</span></div>
 <div><strong>课程对象</strong><span>大三及以上计算机与智能信息相关专业学生</span></div>
 <div><strong>开课日期</strong><span>2026年9月11日</span></div>
 <div><strong>联系邮箱</strong><span>yanxiaosunny@whu.edu.cn</span></div>
@@ -44,10 +44,12 @@ hide:
 <section class="home-section">
 <h2>课程安排</h2>
 <ol class="course-outline">
-<li><strong>科研基础与文献能力</strong><span>科研范式、论文阅读、文献调研和研究评价。</span></li>
-<li><strong>问题、方案与研究设计</strong><span>问题与机理、研究假设、方案构思、实现、实验与证据。</span></li>
-<li><strong>写作、交流与提案</strong><span>论文写作、图表、AI与科研诚信、答辩和研究路径。</span></li>
+<li><strong>科研基础与文献能力 <em>已开课</em></strong><span>什么是科研与好研究；论文阅读与文献调研：检索筛选、三步阅读、跨论文比较与问题发现。</span></li>
+<li><strong>问题、方案与研究设计</strong><span>问题定义与机理分析、研究假设、方案构思与收益估算、最小实现与实验设计、证据与结论边界。</span></li>
+<li><strong>写作、交流与提案</strong><span>论文撰写与图表、审稿回复与展示汇报、AI辅助科研与学术诚信。</span></li>
+<li><strong>科研生活与硕博申请</strong><span>压力管理、时间规划与科研生活平衡；简历和文书撰写、联系导师、面试准备与选择Offer。</span></li>
 </ol>
+<p class="small-note">课程内容以实际授课为准，具体讲次与日期见课程日历。</p>
 </section>
 
 <section class="home-section">
