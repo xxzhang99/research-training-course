@@ -357,15 +357,21 @@ body { color: var(--course-ink); background: var(--course-black); }
 .readings-table th { padding: .7rem .6rem; border-bottom: 2px solid var(--course-ink); text-align: left; font-weight: 900; }
 .readings-table td { padding: .82rem .6rem; border-bottom: 1px solid #d5d9dc; vertical-align: top; line-height: 1.6; }
 .readings-table tr:nth-child(even) td { background: #e9ebed; }
-.readings-table .reading-title { width: 27%; }
-.readings-table .reading-note { width: 34%; color: #555e66; }
+.readings-table th:nth-child(1), .readings-table td:nth-child(1) { width: 27%; }
+.readings-table th:nth-child(2), .readings-table td:nth-child(2) { width: 21%; color: #4f5860; }
+.readings-table th:nth-child(3), .readings-table td:nth-child(3) { width: 14%; }
+.readings-table th:nth-child(4), .readings-table td:nth-child(4) { width: 38%; }
+.readings-table .reading-title { color: var(--course-ink); }
+.readings-table .reading-note { color: #555e66; }
 .reading-link { display: inline-flex; min-height: 34px; align-items: center; justify-content: center; padding: .38rem .62rem; border-radius: .2rem; background: var(--course-red); color: #fff !important; font-size: .72rem; font-weight: 900 !important; text-decoration: none !important; white-space: nowrap; }
 .reading-link.external { background: var(--course-ink); }
 .reading-link:hover { background: var(--course-red-dark); }
 .reading-link.external:hover { background: #000; }
-.reading-books { margin: 0 0 1.2rem; padding: 0; list-style: none; }
-.reading-books li { padding: .8rem 0 .85rem; border-top: 1px solid #d8dcdf; color: #4f5860; line-height: 1.75; }
-.reading-books strong { color: var(--course-ink); }
+.reading-books { margin: 0 0 .6rem; padding: 0; list-style: none; }
+.reading-books li { display: grid; grid-template-columns: 300px 130px minmax(0, 1fr); gap: .9rem; padding: .85rem 0; border-top: 1px solid #d8dcdf; color: #4f5860; line-height: 1.7; align-items: start; }
+.reading-books .book-title { color: var(--course-ink); font-weight: 850; }
+.reading-books .book-author { color: #5e6770; }
+.reading-books .book-note { color: #555e66; font-size: .88rem; }
 .mobile-readings-list { display: none; }
 .mobile-reading { margin-bottom: .75rem; padding: .9rem .8rem 1rem; border: 1px solid #d6dade; border-left: 5px solid var(--course-red); border-radius: .25rem; background: #fff; }
 .mobile-reading + .mobile-reading { margin-top: .6rem; }
@@ -427,6 +433,7 @@ body { color: var(--course-ink); background: var(--course-black); }
   .readings-intro { font-size: .88rem; }
   .readings-wrap { display: none; }
   .mobile-readings-list { display: block; margin-bottom: 1.5rem; }
+  .reading-books li { grid-template-columns: 1fr; gap: .2rem; }
   .mobile-material { padding: 1rem .8rem 1.1rem; border-top: 1px solid #cdd2d5; border-bottom: 1px solid #cdd2d5; border-left: 5px solid var(--course-red); background: #fff; }
   .mobile-material-meta { display: flex; justify-content: space-between; gap: 1rem; color: var(--course-muted); font-size: .76rem; }
   .mobile-material-meta strong { color: var(--course-ink); }
