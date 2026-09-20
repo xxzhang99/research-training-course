@@ -345,6 +345,35 @@ body { color: var(--course-ink); background: var(--course-black); }
 .mobile-materials-list { display: none; }
 .materials-notice { margin-top: 1.4rem; }
 
+.readings-page { padding-bottom: .5rem; }
+.readings-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem; margin: .3rem 0 1.4rem; padding: .2rem 0 1.05rem; border-bottom: 2px solid var(--course-ink); }
+.readings-title-wrap { display: flex; align-items: center; gap: .85rem; }
+.readings-icon { display: grid; width: 3rem; height: 3rem; place-items: center; border-radius: .35rem; background: var(--course-red); color: #fff; font-size: .68rem; font-weight: 900; letter-spacing: .04em; }
+.readings-header h1 { margin: 0; font-size: 2.45rem; line-height: 1; }
+.readings-updated { color: var(--course-muted); font-size: .78rem; white-space: nowrap; }
+.readings-intro { max-width: 900px; margin: 0 0 1.2rem; color: #59626a; line-height: 1.75; }
+.readings-wrap { overflow-x: auto; margin-bottom: 1.5rem; }
+.readings-table { width: 100%; min-width: 820px; border-collapse: collapse; font-size: .86rem; }
+.readings-table th { padding: .7rem .6rem; border-bottom: 2px solid var(--course-ink); text-align: left; font-weight: 900; }
+.readings-table td { padding: .82rem .6rem; border-bottom: 1px solid #d5d9dc; vertical-align: top; line-height: 1.6; }
+.readings-table tr:nth-child(even) td { background: #e9ebed; }
+.readings-table .reading-title { width: 27%; }
+.readings-table .reading-note { width: 34%; color: #555e66; }
+.reading-link { display: inline-flex; min-height: 34px; align-items: center; justify-content: center; padding: .38rem .62rem; border-radius: .2rem; background: var(--course-red); color: #fff !important; font-size: .72rem; font-weight: 900 !important; text-decoration: none !important; white-space: nowrap; }
+.reading-link.external { background: var(--course-ink); }
+.reading-link:hover { background: var(--course-red-dark); }
+.reading-link.external:hover { background: #000; }
+.reading-books { margin: 0 0 1.2rem; padding: 0; list-style: none; }
+.reading-books li { padding: .8rem 0 .85rem; border-top: 1px solid #d8dcdf; color: #4f5860; line-height: 1.75; }
+.reading-books strong { color: var(--course-ink); }
+.mobile-readings-list { display: none; }
+.mobile-reading { margin-bottom: .75rem; padding: .9rem .8rem 1rem; border: 1px solid #d6dade; border-left: 5px solid var(--course-red); border-radius: .25rem; background: #fff; }
+.mobile-reading + .mobile-reading { margin-top: .6rem; }
+.mobile-reading-top { margin-bottom: .5rem; color: var(--course-ink); font-size: .95rem; }
+.mobile-reading p { margin: .25rem 0; color: #59626a; font-size: .8rem; line-height: 1.55; }
+.mobile-reading a { display: inline-flex; min-height: 34px; align-items: center; justify-content: center; margin: .55rem .35rem 0 0; padding: .35rem .6rem; border-radius: .2rem; background: var(--course-red); color: #fff !important; font-size: .72rem; font-weight: 900 !important; text-decoration: none !important; }
+.mobile-reading a.detail { background: var(--course-ink); }
+
 .md-typeset table:not([class]) { border: 0; box-shadow: none; }
 .md-typeset table:not([class]) th { background: var(--course-ink); color: #fff; }
 .md-typeset table:not([class]) tr:nth-child(even) { background: #e7e9eb; }
@@ -392,6 +421,12 @@ body { color: var(--course-ink); background: var(--course-black); }
   .materials-intro { font-size: .88rem; }
   .materials-wrap { display: none; }
   .mobile-materials-list { display: block; }
+  .readings-header { display: block; }
+  .readings-header h1 { font-size: 1.9rem; }
+  .readings-updated { display: block; margin: .65rem 0 0 3.85rem; }
+  .readings-intro { font-size: .88rem; }
+  .readings-wrap { display: none; }
+  .mobile-readings-list { display: block; margin-bottom: 1.5rem; }
   .mobile-material { padding: 1rem .8rem 1.1rem; border-top: 1px solid #cdd2d5; border-bottom: 1px solid #cdd2d5; border-left: 5px solid var(--course-red); background: #fff; }
   .mobile-material-meta { display: flex; justify-content: space-between; gap: 1rem; color: var(--course-muted); font-size: .76rem; }
   .mobile-material-meta strong { color: var(--course-ink); }

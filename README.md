@@ -20,6 +20,7 @@ mkdocs build --strict
 - `docs/index.md`：课程首页与介绍
 - `docs/schedule.md`：按实际授课进度更新的课程日历
 - `docs/materials.md`：同学分享的课程资料
+- `docs/readings.md`：课程阅读材料，可公开材料提供PDF，其余只给官方链接
 - `docs/assignments/`：课程作业
 - `docs/faq.md`：常见问题
 - `docs/lectures/`：从日历进入的各讲详情页

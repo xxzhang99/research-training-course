@@ -1,55 +1,29 @@
-# 第2讲 · 科研文献阅读
+# 第2讲 · 论文阅读与调研
 
-<span class="status status-ready">资料已发布</span>
+<span class="status status-ready">2026年9月18日已授课</span>
 
-## 从按需学习到发现研究问题
+## 从“读过”到“能理解、能质疑、能比较、能发现问题”
 
-本讲训练学生把论文阅读从“按顺序看完”转化为有目标的研究动作：找到值得阅读的文献，按需要决定阅读深度，重建论文的问题—方法—证据链，并从多篇文献的差异、边界和权衡中形成候选问题。
+本讲把论文阅读组织成一条可检查的流程：找 → 筛 → 读 → 懂 → 比 → 问，每一步都留下文字产出。重点解决“论文都看了，研究还是不知道怎么做”的四个原因：目的不清、没有思考、缺少比较、只读不动手。
 
 <div class="downloads">
-<a href="../../assets/files/lecture-02/slides.pdf">下载PDF课件</a>
+<a href="../../assets/files/lecture-02/slides.pdf">查看PDF课件</a>
 <a href="../../assets/files/lecture-02/slides.pptx">下载PPTX课件</a>
 </div>
 
-<div class="notice">
-公开PPTX为课程完整版，包含授课备注、课堂任务和参考答案。请在复用或修改时保留必要的资料来源。
-</div>
+## 本讲要点
 
-## 学习目标
+- **调研流程**：找（阅读目标）→ 筛（搜索记录）→ 读（阅读笔记）→ 懂（实现或讲解）→ 比（比较表）→ 问（问题描述）。
+- **按需学习**：文献阅读与教材学习不同，遇到障碍再定向补背景，不必先把领域全部学完。
+- **论文检索**：把调研内容细化为可检索的关键词；检索是逐轮收敛，而不是一次命中。
+- **种子论文与双向引用**：从一篇种子论文出发，向后追References，向前追Cited by。
+- **三步阅读法**：第一遍鸟瞰决定是否继续，第二遍理解主张与证据，第三遍虚拟重新实现。
+- **七段式提纲**：用统一结构重建论文论证，而不是摘抄摘要。
+- **跨论文比较**：先确定比较目的，再做表；从效果、效率、开销和适应性的冲突中发现问题。
+- **问题模板**：用5要素模板把观察写成可检验的问题，并准备一场论文调研汇报。
 
-完成本讲后，学生应能够：
-
-1. 区分教材学习与科研论文阅读；
-2. 根据任务建立关键词、种子论文和引用追踪链；
-3. 使用三步阅读法决定筛选、理解和验证的深度；
-4. 用Problem、Assumption、Insight、Method、Evidence和Impact重建论文；
-5. 对核心文献进行最小实现、复现或Teach-back；
-6. 制作文献比较表，并从效果、效率、开销和适应性中发现问题。
-
-## 课堂结构
-
-| 模块 | 核心活动 | 阶段产出 |
-|---|---|---|
-| 目的导向 | 阅读目标卡 | 目标、问题、时间预算、完成标准 |
-| 检索与筛选 | 材料信息卡分类 | Literature Search Log |
-| 三步阅读 | 裁剪材料结构识别 | Paper Reading Note |
-| 核心掌握 | WordCount后半流程补全 | 实现/讲解记录 |
-| 文献比较 | MapReduce—RDD事实卡归类 | Literature Comparison |
-| 问题发现 | 关键词拼装问题 | Candidate Problem Statement |
-
-## 核心阅读
+## 核心参考
 
 - S. Keshav, [How to Read a Paper](https://web.stanford.edu/class/cs244/papers/HowtoReadPaper.pdf)
-- Jeffrey Dean and Sanjay Ghemawat, [MapReduce: Simplified Data Processing on Large Clusters](https://research.google/pubs/mapreduce-simplified-data-processing-on-large-clusters/)
-- Matei Zaharia et al., [Resilient Distributed Datasets](https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia)
-- Stanford CS197C, [Assignment 1: Reading a Paper](https://web.stanford.edu/class/cs197c/assignments/a1.html)
 
-## 课后建议
-
-选择一个感兴趣的研究方向：
-
-1. 记录一次可复现的文献检索；
-2. 精读一篇核心论文；
-3. 完成七段式论文阅读卡；
-4. 与至少两篇相关论文制作比较表；
-5. 写出一个有场景、有边界和可测不足的候选问题。
+更多阅读材料见[阅读材料](../readings.md)。

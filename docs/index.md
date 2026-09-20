@@ -12,6 +12,7 @@ hide:
 <div class="hero-actions">
 <a class="primary" href="schedule/">课程日历</a>
 <a href="materials/">课程资料</a>
+<a href="readings/">阅读材料</a>
 <a href="assignments/">课程作业</a>
 <a href="faq/">常见问题</a>
 </div>
@@ -55,6 +56,8 @@ hide:
 <thead><tr><th>日期</th><th>讲次</th><th>主题</th><th>PDF</th><th>PPTX</th><th>页面</th></tr></thead>
 <tbody>
 <tr><td>09.11</td><td>00</td><td>课程介绍</td><td><a href="assets/files/lecture-00/slides.pdf">查看</a></td><td><a href="assets/files/lecture-00/slides.pptx">下载</a></td><td><a href="lectures/lecture-00/">详情</a></td></tr>
+<tr><td>09.18</td><td>01</td><td>引言</td><td><a href="assets/files/lecture-01/slides.pdf">查看</a></td><td><a href="assets/files/lecture-01/slides.pptx">下载</a></td><td><a href="lectures/lecture-01/">详情</a></td></tr>
+<tr><td>09.18</td><td>02</td><td>论文阅读与调研</td><td><a href="assets/files/lecture-02/slides.pdf">查看</a></td><td><a href="assets/files/lecture-02/slides.pptx">下载</a></td><td><a href="lectures/lecture-02/">详情</a></td></tr>
 </tbody>
 </table>
 <p class="small-note">尚未授课的讲次暂不展示，课程结束后将及时更新。</p>
@@ -62,5 +65,5 @@ hide:
 
 <section class="home-section home-note">
 <h2>资料说明</h2>
-<p>课程日历只展示已经完成的讲次；同学分享的资料统一收录在“课程资料”页面。公开PPTX保留可编辑内容，涉及第三方政策与经验时请以最新官方信息为准。</p>
+<p>课程日历只展示已经完成的讲次；同学分享的资料统一收录在“课程资料”页面，课程相关的论文与文档收录在“阅读材料”页面。公开PPTX保留可编辑内容，涉及第三方政策与经验时请以最新官方信息为准。</p>
 </section>
