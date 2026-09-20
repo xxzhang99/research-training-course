@@ -106,8 +106,10 @@ hide:
 ## 延伸阅读（推荐书目）
 
 <ul class="reading-books">
-<li><strong>《哲学家们都干了些什么？》</strong>　林欣浩 著。通俗哲学读物，与课程技术内容无关，可作为科研之外保持思考习惯的轻松读物。本书为正式出版物，本站不提供电子版，请通过图书馆或正规渠道借阅购买。</li>
+<li><span class="book-title">《金字塔原理：思考、写作和解决问题的逻辑》</span><span class="book-author">芭芭拉·明托 著</span><span class="book-note">结论先行、以上统下、归类分组、逻辑递进，对论文写作、汇报和问题分析都直接有用。本书为正式出版物，本站不提供电子版，请通过图书馆或正规渠道借阅购买。</span></li>
+<li><span class="book-title">《哲学家们都干了些什么？》</span><span class="book-author">林欣浩 著</span><span class="book-note">通俗哲学读物，与课程技术内容无关，可作为科研之外保持思考习惯的轻松读物。本书为正式出版物，本站不提供电子版，请通过图书馆或正规渠道借阅购买。</span></li>
 </ul>
+<div class="small-note">推荐书目均只列出书名与说明，不提供电子版下载。</div>
 
 <div class="notice readings-notice">
 版权说明：受版权或订阅限制的材料本站只提供官方链接，不重新分发全文；允许公开传播的材料会同时给出作者或机构的原始出处。如发现链接失效或授权情况变化，请联系课程邮箱。
