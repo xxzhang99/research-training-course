@@ -9,6 +9,27 @@ hide:
 <div class="assignment-note">更新日期：2026年9月30日</div>
 </div>
 
+<section class="home-section" aria-labelledby="assignment-requirements">
+<h2 id="assignment-requirements">作业要求</h2>
+<div class="course-info-list">
+<div><strong>内容与范围</strong><span>待公布</span></div>
+<div><strong>完成形式</strong><span>待公布</span></div>
+<div><strong>格式与篇幅</strong><span>待公布</span></div>
+<div><strong>评分要求</strong><span>待公布</span></div>
+</div>
+</section>
+
+<section class="home-section" aria-labelledby="assignment-submission">
+<h2 id="assignment-submission">提交方式</h2>
+<div class="course-info-list">
+<div><strong>提交邮箱</strong><span><a href="mailto:xxzhangstu@whu.edu.cn" style="overflow-wrap: anywhere;">xxzhangstu@whu.edu.cn</a></span></div>
+<div><strong>提交文件</strong><span>待公布</span></div>
+<div><strong>文件命名规则</strong><span>待公布</span></div>
+<div><strong>截止时间</strong><span>待公布</span></div>
+</div>
+<p class="small-note">作业通过邮件提交至上述邮箱，其余要求后续在本页补充。</p>
+</section>
+
 <section class="home-section">
 <h2 id="research-report-template">研究报告模板</h2>
 <p>撰写研究报告时，可参考模板中的排版与章节组织。压缩包包含完整论文示例，以及 LaTeX 源文件、参考文献、图表和附录。</p>
