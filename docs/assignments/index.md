@@ -38,7 +38,7 @@ hide:
 </div>
 <p>另提供一份在线示例工程，可直接在 Overleaf 中查看目录结构、图表插入和参考文献的写法。</p>
 <div class="downloads">
-<a class="secondary" href="https://www.overleaf.com/project/6ac7503e7f10c0f9b7dd062e" target="_blank" rel="noopener">查看示例工程（Overleaf）</a>
+<a class="secondary" href="https://www.overleaf.com/read/rtpcntzqnfmc#f7ad0a" target="_blank" rel="noopener">查看示例工程（Overleaf）</a>
 </div>
 <p class="small-note">原始文件：_NeurIPS_2026__XXX.zip · 约 1.8 MB · 原样提供</p>
 </section>
@@ -47,4 +47,4 @@ hide:
 
 - 解压后，主文件为 `main.tex`；正文分节位于 `Sections/`，图片位于 `Figs/`，参考文献为 `references.bib`，请保留各文件与子目录的相对位置。
 - 这是含完整论文示例的模板，不是空白文档。使用时请将标题、作者、正文、图表和参考文献替换为自己的报告内容。
-- Overleaf 示例工程用于对照排版效果，打开可能需要 Overleaf 账号或访问权限。
+- Overleaf 示例工程为只读分享链接，用于对照目录结构、图表插入和参考文献的写法。
