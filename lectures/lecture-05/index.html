@@ -22,7 +22,7 @@
     
     
       
-        <title>第5讲 · 问题、机理与假设 - WHU CS 科研训练</title>
+        <title>第5讲 · 用 AI 做科研 - WHU CS 科研训练</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#5" class="md-skip">
+        <a href="#5-ai" class="md-skip">
           跳转至
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              第5讲 · 问题、机理与假设
+              第5讲 · 用 AI 做科研
             
           </span>
         </div>
@@ -492,6 +492,50 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vibe-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vibe Research：调研、写代码、写论文
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      三份课件
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      本讲要点
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用说明
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -509,10 +553,53 @@
   
 
 
-<h1 id="5">第5讲 · 问题、机理与假设<a class="headerlink" href="#5" title="Permanent link">&para;</a></h1>
-<p><span class="status status-plan">资料规划中</span></p>
-<p>聚焦研究问题的价值、边界、研究空白、竞争性解释和可反驳假设。</p>
-<p><strong>计划产出：</strong> Problem–Gap Canvas、Mechanism Chain、Research Hypothesis。</p>
+<h1 id="5-ai">第5讲 · 用 AI 做科研<a class="headerlink" href="#5-ai" title="Permanent link">&para;</a></h1>
+<p><span class="status status-ready">2026年10月23日已授课</span></p>
+<h2 id="vibe-research">Vibe Research：调研、写代码、写论文<a class="headerlink" href="#vibe-research" title="Permanent link">&para;</a></h2>
+<p>本讲由三份课件组成，分别覆盖调研与汇报、复现代码、画图与写作。贯穿三份课件的是同一条原则：<strong>AI 负责把你的意图变成可检查的产出，判断对错、形成结论是你自己的事。</strong></p>
+<div class="downloads">
+<a href="../../assets/files/lecture-05/ai-courseware-2026-10-23.zip">下载课件压缩包（ZIP · 3 份 Markdown）</a>
+</div>
+
+<h2 id="_1">三份课件<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>课件</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>用 AI 做科研调研与汇报</td>
+<td>按任务选模型和工具、买 API 的渠道风险；用 7 个提示词走完定问题 → 找文献 → 筛文献 → 读文献 → 写综述 → 评估 idea → 做汇报；每一步 AI 最容易错在哪、怎么一眼查出来</td>
+</tr>
+<tr>
+<td>用 AI 写代码</td>
+<td>Vibe Coding 是什么、四条心法、一个工作循环、六条技法；演示 1–8：只依据论文复现 DGI（抽规格、建立参照、分步写代码、排查异常、交给智能体、判读、写完再对照、收工）；最后用一个 Skill 把整套流程搬到另一篇论文（GRACE）</td>
+</tr>
+<tr>
+<td>用 AI 写论文</td>
+<td>Vibe Figure：框架图、实验图、图表标题；Vibe Writing：写 Introduction、实验分析、表达润色、模拟 Reviewer 审稿</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">本讲要点<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>按分工选模型</strong>：贵的模型做决定，便宜的模型干活；写作润色与审稿用旗舰模型，批量筛选和整理可以换便宜的。</li>
+<li><strong>买 API 的坑在渠道不在价格</strong>：只走官方渠道和可查证的中转，不用来路不明的代理 key。</li>
+<li><strong>每一步的产出都存成文件</strong>：后一步读前一步的文件，过程可追溯、可回退，也方便检查 AI 每次改了什么。</li>
+<li><strong>每个演示都是三块</strong>：输入（交给 AI 的完整提示词）、输出（AI 的原始回答和写出的文件）、核验（你要检查的一两个点和检查结果）。</li>
+<li><strong>只依据论文复现</strong>：论文没写清楚的地方列成“待决定清单”自己定；判定标准在运行前写定；写完再用官方实现对照查错。</li>
+<li><strong>画图交给 AI，口径自己定</strong>：先出图再重绘矢量图，图型与标注标准由你给出。</li>
+<li><strong>先看出错现场再看演示</strong>：三份课件末尾都列了本课 AI 实际出过的错和避坑清单。</li>
+</ul>
+<h2 id="_3">使用说明<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<ul>
+<li>压缩包内为 Markdown 课件，可用任意编辑器或支持 Markdown 预览的工具打开；</li>
+<li>课件中的演示用 WorkBuddy 完成，换其他工具时提示词基本可用，文件读写方式需相应调整；</li>
+<li>课件引用的外部论文与数据集请通过官方渠道获取。</li>
+</ul>
 
 
 
