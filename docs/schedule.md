@@ -12,7 +12,7 @@ hide:
 <div class="schedule-icon">PLAN</div>
 <div><div class="course-eyebrow">Course calendar</div><h1>课程日历</h1></div>
 </div>
-<div class="schedule-updated">最后更新：2026年10月23日</div>
+<div class="schedule-updated">最后更新：2026年11月17日</div>
 </div>
 
 <p class="schedule-intro">课程日历按实际授课进度更新。尚未开始的讲次暂不展示；每次课结束后，将补充本讲的核心内容、延伸内容与课件。</p>
@@ -52,6 +52,11 @@ hide:
 <td class="topic"><strong>#05：用 AI 做科研 <em>已授课</em></strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">三份课件：用 AI 做调研与汇报、用 AI 写代码、用 AI 写论文；按分工选模型、七步调研流程、只依据论文复现、画图与写作</span><span class="label">延伸内容：</span><span class="value">课件中的演示可在自己的项目上照做；涉及的论文与数据集请通过官方渠道获取</span></div></td>
 <td class="resource-cell"><a class="file-link" href="../assets/files/lecture-05/ai-courseware-2026-10-23.zip">ZIP</a></td><td class="resource-cell">—</td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-05/">VIEW</a></td>
 </tr>
+<tr>
+<td class="date">10.30</td>
+<td class="topic"><strong>#06：杂谈 <em>已授课</em></strong><div class="schedule-meta"><span class="label">核心内容：</span><span class="value">技术以外怎么做事、怎么与人相处、怎么面对自己：工作原则与尊重、面对失败与沉没成本、时间管理与休息、做选择、勇敢尝试、保护自己</span><span class="label">延伸内容：</span><span class="value">本讲为个人经验与体会，供批判性参考；课件中的引语与事例见讲义详情页</span></div></td>
+<td class="resource-cell"><a class="file-link" href="../assets/files/lecture-06/slides.pdf">PDF</a></td><td class="resource-cell"><a class="file-link" href="../assets/files/lecture-06/slides.pptx">PPT</a></td><td class="resource-cell"><a class="file-link detail" href="../lectures/lecture-06/">VIEW</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -64,6 +69,7 @@ hide:
 <div class="mobile-lecture ready"><div class="mobile-lecture-top"><span class="mobile-lecture-no">10.09 · #03</span><span class="mobile-lecture-title">研究推进</span></div><p><strong>核心内容：</strong>研究问题的来源、从机理与第一性原理构思解法、量级估算、精简实现、实验设计四要求、失败应对与逻辑谬误。</p><p><strong>延伸内容：</strong>Jeff Dean《Numbers Everyone Should Know》与阅读材料中的写作、审稿条目。</p><div class="mobile-files"><a href="../assets/files/lecture-03/slides.pdf">PDF</a><a href="../assets/files/lecture-03/slides.pptx">PPTX</a><a class="detail" href="../lectures/lecture-03/">查看详情</a></div></div>
 <div class="mobile-lecture ready"><div class="mobile-lecture-top"><span class="mobile-lecture-no">10.16 · #04</span><span class="mobile-lecture-title">论文写作</span></div><p><strong>核心内容：</strong>审稿流程与防御性写作三条标准：亮眼、顺滑、扎实；长引言与主图、段落与图表规则、一致性与审稿回复。</p><p><strong>延伸内容：</strong>课程资料中的论文修改样本（初稿与终稿对照）与阅读材料中的写作、投稿条目。</p><div class="mobile-files"><a href="../assets/files/lecture-04/slides.pdf">PDF</a><a href="../assets/files/lecture-04/slides.pptx">PPTX</a><a class="detail" href="../lectures/lecture-04/">查看详情</a></div></div>
 <div class="mobile-lecture ready"><div class="mobile-lecture-top"><span class="mobile-lecture-no">10.23 · #05</span><span class="mobile-lecture-title">用 AI 做科研</span></div><p><strong>核心内容：</strong>三份课件：用 AI 做调研与汇报、用 AI 写代码、用 AI 写论文。</p><p><strong>延伸内容：</strong>课件中的演示可在自己的项目上照做；涉及的论文与数据集请通过官方渠道获取。</p><div class="mobile-files"><a href="../assets/files/lecture-05/ai-courseware-2026-10-23.zip">课件ZIP</a><a class="detail" href="../lectures/lecture-05/">查看详情</a></div></div>
+<div class="mobile-lecture ready"><div class="mobile-lecture-top"><span class="mobile-lecture-no">10.30 · #06</span><span class="mobile-lecture-title">杂谈</span></div><p><strong>核心内容：</strong>技术以外怎么做事、怎么与人相处、怎么面对自己：工作原则、尊重、面对失败、沉没成本、时间管理、休息、做选择、勇敢尝试、保护自己。</p><p><strong>延伸内容：</strong>个人经验与体会，供批判性参考；课件中的引语与事例详见课件。</p><div class="mobile-files"><a href="../assets/files/lecture-06/slides.pdf">PDF</a><a href="../assets/files/lecture-06/slides.pptx">PPTX</a><a class="detail" href="../lectures/lecture-06/">查看详情</a></div></div>
 </div>
 </div>
 

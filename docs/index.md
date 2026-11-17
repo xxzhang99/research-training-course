@@ -63,6 +63,7 @@ hide:
 <tr><td>10.09</td><td>03</td><td>研究推进</td><td><a href="assets/files/lecture-03/slides.pdf">查看</a></td><td><a href="assets/files/lecture-03/slides.pptx">下载</a></td><td><a href="lectures/lecture-03/">详情</a></td></tr>
 <tr><td>10.16</td><td>04</td><td>论文写作</td><td><a href="assets/files/lecture-04/slides.pdf">查看</a></td><td><a href="assets/files/lecture-04/slides.pptx">下载</a></td><td><a href="lectures/lecture-04/">详情</a></td></tr>
 <tr><td>10.23</td><td>05</td><td>用 AI 做科研</td><td><a href="assets/files/lecture-05/ai-courseware-2026-10-23.zip">课件ZIP</a></td><td>—</td><td><a href="lectures/lecture-05/">详情</a></td></tr>
+<tr><td>10.30</td><td>06</td><td>杂谈</td><td><a href="assets/files/lecture-06/slides.pdf">查看</a></td><td><a href="assets/files/lecture-06/slides.pptx">下载</a></td><td><a href="lectures/lecture-06/">详情</a></td></tr>
 </tbody>
 </table>
 <p class="small-note">尚未授课的讲次暂不展示，课程结束后将及时更新。</p>
