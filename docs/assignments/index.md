@@ -69,7 +69,7 @@ hide:
 <div><strong>提交邮箱</strong><span><a href="mailto:xxzhangstu@whu.edu.cn" style="overflow-wrap: anywhere;">xxzhangstu@whu.edu.cn</a>（TA）</span></div>
 <div><strong>抄送</strong><span><a href="mailto:yanxiaosunny@whu.edu.cn" style="overflow-wrap: anywhere;">yanxiaosunny@whu.edu.cn</a>（任课老师）</span></div>
 <div><strong>提交文件</strong><span>研究报告 PDF 一份，每组一份；小组展示的 PPT 用于现场讲解</span></div>
-<div><strong>文件命名规则</strong><span>规则中未作统一规定；PDF 首页需写明组内同学名字和学号</span></div>
+<div><strong>文件命名规则</strong><span>小组序号 + 报告题目，例如 <code>第3组-长序列推荐中的位置编码调研.pdf</code>；PDF 首页仍需写明组内同学名字和学号</span></div>
 <div><strong>截止时间</strong><span>研究报告：2026 年 12 月 31 日；分组信息：10.12；题目：10.15</span></div>
 </div>
 <p class="small-note">研究报告交到 TA 邮箱并抄送老师；分组信息与题目按上述时间发到课程群。</p>
